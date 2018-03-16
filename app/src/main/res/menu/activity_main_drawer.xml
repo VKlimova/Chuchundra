@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_insta"
+            android:icon="@drawable/insta"
+            android:title="@string/action_insta" />
+        <item
+            android:id="@+id/nav_vk"
+            android:icon="@drawable/vk"
+            android:title="@string/action_vk" />
+        <item
+            android:id="@+id/nav_youtube"
+            android:icon="@drawable/youtube"
+            android:title="@string/action_youtube" />
+
+        <item
+            android:id="@+id/nav_shop"
+            android:icon="@drawable/ic_shopping_cart_black_24dp"
+            android:title="@string/action_shop" />
+    </group>
+
+
+    <item   android:id="@+id/about_chu"
+            android:icon="@drawable/chu_cut_alpha"
+            android:title="@string/action_about_chu" />
+
+    <!--item
+        android:id="@+id/nav_fishki"
+        android:title="@string/action_fishki" /-->
+
+    <!--item android:title="@string/action_about_chu">
+        <menu>
+            <item
+                android:id="@+id/about_chu"
+                android:icon="@drawable/chu_icon"
+                android:title="Share" />
+
+        </menu>
+    </item-->
+
+</menu>

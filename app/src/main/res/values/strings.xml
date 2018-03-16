@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Chuchundrochka boutique</string>
+    <string name="dog_no_dress">Dog no dress</string>
+    <string name="dog_in_dress">Dog in dress</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="dress_for_pets">Dress for pets</string>
+    <string name="choose_dog">Choose dog</string>'
+    <string name="choose_dress">Choose dress</string>
+    <string name="tryit">Put it on</string>
+    <string name="selectdogdress">Choose the dog and the dress</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_select_dog_dress">Dressing room</string>
+    <string name="title_activity_in_dress">Try another dress</string>
+    <string name="help_dress">Dress the dogs</string>
+    <string name="action_about_chu">About Chuchundrochka</string>
+    <string name="action_insta">Instagram</string>
+    <string name="action_insta_link">https://www.instagram.com/chuchundrochka/</string>
+    <string name="action_youtube">Youtube</string>
+    <string name="action_youtube_link">https://www.youtube.com/channel/UC3DtPzyPAljMFq3kkugUDIw</string>
+    <string name="action_shop">Clothing store</string>
+    <string name="action_shop_link">http://www.livemaster.ru/chuchundrochka</string>
+    <string name="action_vk">VKontakte</string>
+    <string name="action_vk_link">https://new.vk.com/chuchundrochka_fashion</string>
+    <string name="action_fishki">FISHKI.net</string>
+    <string name="action_fishki_link">http://fishki.net/1896316-istorija-odnoj-malenkoj-sobachki-iz-prijuta.html</string>
+    <string name="someimage">Picture</string>
+    <string name="help1">Chuchunchrochka came to us by train from Donetsk shelter. Immediately became a favorite pet and a real family member. When Chuchunchrochka got pages in social networks, the former homeless girl turned into a Internet star and an icon of style. Trendy outfits from Chuchunchrochka can be purchased at the fashion store.
+    </string>
+    <string name="buy">Buy now</string>
+</resources>

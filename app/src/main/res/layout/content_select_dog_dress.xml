@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:weightSum="8"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:context=".SelectDogDress">
+    <TextView
+        android:id="@+id/textViewDog"
+        style="@style/Base.TextAppearance.AppCompat.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|start"
+
+        android:text="@string/choose_dog" />
+    <!-- Dogs Line -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        android:weightSum="3">
+
+        <ImageButton
+            android:id="@+id/iBtnDog1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:contentDescription="@string/someimage"
+            android:onClick="onDogClick"
+            android:scaleType="fitCenter"
+            android:src="@drawable/bokser" />
+
+        <ImageButton
+            android:id="@+id/iBtnDog2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:contentDescription="@string/someimage"
+            android:onClick="onDogClick"
+            android:scaleType="fitCenter"
+            android:src="@drawable/cannan" />
+
+        <ImageButton
+            android:id="@+id/iBtnDog3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:contentDescription="@string/someimage"
+            android:onClick="onDogClick"
+            android:scaleType="fitCenter"
+            android:src="@drawable/amstaf" />
+    </LinearLayout>
+
+
+           <TextView
+               android:id="@+id/textViewDress"
+               style="@style/Base.TextAppearance.AppCompat.Medium"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="top|start"
+               android:text="@string/choose_dress" />
+
+    <!-- Dress Line -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        android:weightSum="3">
+
+
+         <ImageButton
+             android:id="@+id/iBtnDress1"
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="1"
+             android:scaleType="fitCenter"
+             android:background="@android:color/transparent"
+             android:clickable="true"
+             android:contentDescription="@string/someimage"
+             android:onClick="onDressClick"
+             android:src="@drawable/dress1" />
+
+         <ImageButton
+             android:id="@+id/iBtnDress2"
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="1"
+             android:background="@android:color/transparent"
+             android:clickable="true"
+             android:scaleType="fitCenter"
+             android:contentDescription="@string/someimage"
+             android:onClick="onDressClick"
+             android:src="@drawable/dress2" />
+
+        <ImageButton
+            android:id="@+id/iBtnDress3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:contentDescription="@string/someimage"
+
+            android:onClick="onDressClick"
+            android:src="@drawable/dress3"
+            android:visibility="visible" />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:visibility="visible"
+        >
+    <Button
+        android:id="@+id/Try"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:onClick="onTryClick"
+        android:text="@string/tryit" />
+</LinearLayout>
+
+</LinearLayout>
+
